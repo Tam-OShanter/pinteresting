@@ -78,7 +78,7 @@ Rails.application.configure do
 
   # Configures Devise for login and Signup environments.
   # Required for Heroku
-  config.action_mailer.default_url_options = < :host => 'local:3000' >
+  config.action_mailer.default_url_options = { :host => 'local:3000' }
 
 
 end
