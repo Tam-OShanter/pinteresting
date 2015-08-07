@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -25,8 +25,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Solving"TypeError: Object doesn't support this property or method"
 gem 'coffee-script-source', '1.8.0'
 
-gem 'bootstrap-sass'
 # Use this to bootstrap tools and layouts
+gem 'bootstrap-sass'
+
+# Use Devise for user Login and Sign Up
+gem 'devise', '~> 3.1.0.rc2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
